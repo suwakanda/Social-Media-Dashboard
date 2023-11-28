@@ -1,0 +1,15 @@
+.icon {
+  margin-right: 0.5em;
+}
+
+.inputField {
+  color: var(--baseColor);
+  background-color: var(--cardGray);
+  font-size: medium;
+  padding: 1em;
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  width: 90%;
+  margin-left: 0.5em;
+}

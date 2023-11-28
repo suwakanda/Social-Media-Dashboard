@@ -1,0 +1,55 @@
+.feedUtil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.85em 3em;
+}
+
+.icon {
+  margin-right: 0.5em;
+}
+
+.searchBar,
+.dropdown,
+.exportButton {
+  background-color: var(--cardGray);
+  font-size: medium;
+  padding: 1em;
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  width: 300px;
+  margin-left: 0.5em;
+}
+
+.searchBar {
+  width: 500px;
+}
+
+.dropdown,
+.exportButton {
+  color: var(--baseColor);
+  width: 200px;
+}
+
+.exportButton {
+  width: 100px;
+}
+
+.feedUtilAction {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.sortBySection,
+.exportSection {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.filterIcon,
+.downloadIcon {
+  margin-right: 5px;
+}

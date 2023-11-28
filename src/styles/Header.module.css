@@ -1,0 +1,68 @@
+.header {
+  background: var(--lightGray);
+  padding-bottom: 20px;
+  border-radius: 0 0 20px 20px;
+  padding-top: 2em;
+}
+
+.headerDate {
+  color: var(--gray);
+  margin: 0.5em 0;
+  font-weight: 600;
+  border-bottom: 1px solid var(--gray);
+  padding-bottom: 1.5em;
+}
+
+.headerTitle {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.myContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1em;
+}
+
+.myImg {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 3px solid silver;
+}
+
+.welcomeMsg {
+  font-size: 1.5em;
+  margin-left: 1em;
+}
+
+.navList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.navList button {
+  max-width: 210px;
+  background-color: var(--cardGray);
+  padding: 12px 8px;
+  border-radius: 1em;
+  border: none;
+  font-size: large;
+}
+
+.navList a {
+  font-size: 15px;
+  color: var(--baseColor);
+  text-decoration: none;
+  padding: 12px;
+}
+
+.navList button:hover {
+  background-color: var(--gray);
+}
+
+.active {
+  font-weight: bold;
+}
